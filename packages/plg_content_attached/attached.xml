@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	version="3.2"
+	type="plugin"
+	group="content"
+	method="upgrade">
+	<name>plg_content_attached</name>
+	<author>Bruno Batista</author>
+	<creationDate>Nov 2013</creationDate>
+	<copyright>Copyright (C) 2013 CTIS IT Services. All rights reserved.</copyright>
+	<license>Commercial License</license>
+	<authorEmail>bruno.batista@ctis.com.br</authorEmail>
+	<authorUrl>http://www.ctis.com.br</authorUrl>
+	<version>1.0</version>
+	<description>PLG_CONTENT_ATTACHED_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="attached">attached.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_attached.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_attached.sys.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.plg_content_attached.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.plg_content_attached.sys.ini</language>
+	</languages>
+</extension>
