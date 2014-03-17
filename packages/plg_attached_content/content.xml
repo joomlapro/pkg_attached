@@ -7,10 +7,10 @@
 	<name>plg_attached_content</name>
 	<author>Bruno Batista</author>
 	<creationDate>Nov 2013</creationDate>
-	<copyright>Copyright (C) 2013 CTIS IT Services. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2013 AtomTech, Inc. All rights reserved.</copyright>
 	<license>Commercial License</license>
-	<authorEmail>bruno.batista@ctis.com.br</authorEmail>
-	<authorUrl>http://www.ctis.com.br</authorUrl>
+	<authorEmail>bruno@atomtech.com.br</authorEmail>
+	<authorUrl>http://www.atomtech.com.br</authorUrl>
 	<version>1.0</version>
 	<description>PLG_ATTACHED_CONTENT_XML_DESCRIPTION</description>
 	<scriptfile>script.php</scriptfile>

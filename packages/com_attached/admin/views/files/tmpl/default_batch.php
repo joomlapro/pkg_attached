@@ -3,8 +3,8 @@
  * @package     Attached
  * @subpackage  com_attached
  *
- * @author      Bruno Batista <bruno.batista@ctis.com.br>
- * @copyright   Copyright (C) 2013 CTIS IT Services. All rights reserved.
+ * @author      Bruno Batista <bruno@atomtech.com.br>
+ * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
  * @license     Commercial License
  */
 

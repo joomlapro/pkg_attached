@@ -8,14 +8,14 @@
 	<version>3.2.0</version>
 	<description>Attached package to combine multiple extensions.</description>
 	<creationDate>Jan 2014</creationDate>
-	<copyright>Copyright (C) 2014 CTIS IT Services. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2014 AtomTech, Inc. All rights reserved.</copyright>
 	<license>Commercial License</license>
 	<author>Bruno Batista</author>
-	<authorEmail>bruno.batista@ctis.com.br</authorEmail>
-	<authorUrl>http://www.ctis.com.br</authorUrl>
+	<authorEmail>bruno@atomtech.com.br</authorEmail>
+	<authorUrl>http://www.atomtech.com.br</authorUrl>
 	<packager>Bruno Batista</packager>
-	<packagerurl>http://www.ctis.com.br</packagerurl>
-	<update>http://www.ctis.com.br/update</update>
+	<packagerurl>http://www.atomtech.com.br</packagerurl>
+	<update>http://www.atomtech.com.br/update</update>
 	<scriptfile />
 	<files folder="packages">
 		<file
