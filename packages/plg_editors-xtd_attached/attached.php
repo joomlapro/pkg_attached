@@ -4,8 +4,8 @@
  * @subpackage  Editors-xtd.Attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Joomla.Plugin
  * @subpackage  Editors-xtd.attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class PlgButtonAttached extends JPlugin
 {
@@ -25,7 +25,7 @@ class PlgButtonAttached extends JPlugin
 	 * Load the language file on instantiation.
 	 *
 	 * @var     boolean
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected $autoloadLanguage = true;
 
@@ -36,7 +36,7 @@ class PlgButtonAttached extends JPlugin
 	 *
 	 * @return  array A four element array of (attached_id, attached_title, category_id, object).
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function onDisplay($name)
 	{

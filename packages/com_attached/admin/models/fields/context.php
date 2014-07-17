@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -19,7 +19,7 @@ JFormHelper::loadFieldClass('list');
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class JFormFieldContext extends JFormFieldList
 {
@@ -27,7 +27,7 @@ class JFormFieldContext extends JFormFieldList
 	 * The form field context.
 	 *
 	 * @var     string
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected $type = 'Context';
 
@@ -36,7 +36,7 @@ class JFormFieldContext extends JFormFieldList
 	 *
 	 * @return  array  The field option objects.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function getOptions()
 	{

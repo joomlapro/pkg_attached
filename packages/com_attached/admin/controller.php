@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class AttachedController extends JControllerLegacy
 {
@@ -25,7 +25,7 @@ class AttachedController extends JControllerLegacy
 	 * The default view.
 	 *
 	 * @var     string
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected $default_view = 'files';
 
@@ -37,7 +37,7 @@ class AttachedController extends JControllerLegacy
 	 *
 	 * @return  JControllerLegacy  This object to support chaining.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function display($cachable = false, $urlparams = false)
 	{

@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.

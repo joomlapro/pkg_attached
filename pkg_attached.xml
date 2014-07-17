@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
-	version="3.2"
+	version="3.3"
 	type="package"
 	method="upgrade">
 	<name>Attached Package</name>
 	<packagename>attached</packagename>
-	<version>3.2.0</version>
+	<version>3.3.2</version>
 	<description>Attached package to combine multiple extensions.</description>
-	<creationDate>Jan 2014</creationDate>
+	<creationDate>Jul 2014</creationDate>
 	<copyright>Copyright (C) 2014 AtomTech, Inc. All rights reserved.</copyright>
-	<license>Commercial License</license>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<author>Bruno Batista</author>
 	<authorEmail>bruno@atomtech.com.br</authorEmail>
 	<authorUrl>http://www.atomtech.com.br</authorUrl>

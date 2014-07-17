@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -20,7 +20,7 @@ JLoader::register('AttachedHelper', JPATH_ADMINISTRATOR . '/components/com_attac
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class AttachedModelFile extends JModelAdmin
 {
@@ -28,7 +28,7 @@ class AttachedModelFile extends JModelAdmin
 	 * The prefix to use with controller messages.
 	 *
 	 * @var     string
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected $text_prefix = 'COM_ATTACHED_FILE';
 
@@ -36,7 +36,7 @@ class AttachedModelFile extends JModelAdmin
 	 * The type alias for this content type (for example, 'com_attached.file').
 	 *
 	 * @var      string
-	 * @since    3.2
+	 * @since    3.3
 	 */
 	public $typeAlias = 'com_attached.file';
 
@@ -47,7 +47,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  boolean  True if allowed to delete the record. Defaults to the permission set in the component.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function canDelete($record)
 	{
@@ -67,7 +67,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  boolean  True if allowed to change the state of the record. Defaults to the permission set in the component.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function canEditState($record)
 	{
@@ -93,7 +93,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  void
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function prepareTable($table)
 	{
@@ -129,7 +129,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  JTable    A database object.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function getTable($type = 'File', $prefix = 'AttachedTable', $config = array())
 	{
@@ -143,7 +143,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  mixed  Object on success, false on failure.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function getItem($pk = null)
 	{
@@ -196,7 +196,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  mixed  A JForm object on success, false on failure.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function getForm($data = array(), $loadData = true)
 	{
@@ -267,7 +267,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  mixed  The data for the form.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function loadFormData()
 	{
@@ -292,7 +292,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function save($data)
 	{
@@ -420,7 +420,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  array  An array of conditions to add to add to ordering queries.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function getReorderConditions($table)
 	{
@@ -497,7 +497,7 @@ class AttachedModelFile extends JModelAdmin
 	 *
 	 * @return  boolean  True if successful; false otherwise and internal error set.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function download($pk = null)
 	{

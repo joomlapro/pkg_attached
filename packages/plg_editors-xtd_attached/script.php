@@ -4,8 +4,8 @@
  * @subpackage  Editors-xtd.Attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Joomla.Plugin
  * @subpackage  Editors-xtd.Attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class PlgEditorsxtdAttachedInstallerScript
 {
@@ -29,7 +29,7 @@ class PlgEditorsxtdAttachedInstallerScript
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function postflight($route, JAdapterInstance $adapter)
 	{
@@ -62,7 +62,7 @@ class PlgEditorsxtdAttachedInstallerScript
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function install(JAdapterInstance $adapter)
 	{
@@ -77,7 +77,7 @@ class PlgEditorsxtdAttachedInstallerScript
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function uninstall(JAdapterInstance $adapter)
 	{

@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class AttachedTableFile extends JTable
 {
@@ -26,7 +26,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @param   JDatabaseDriver  &$db  A database connector object.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function __construct(& $db)
 	{
@@ -46,7 +46,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @return  string
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function _getAssetName()
 	{
@@ -60,7 +60,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @return  string
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function _getAssetTitle()
 	{
@@ -75,7 +75,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @return  integer
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function _getAssetParentId(JTable $table = null, $id = null)
 	{
@@ -116,7 +116,7 @@ class AttachedTableFile extends JTable
 	 * @return  mixed  Null if operation was satisfactory, otherwise returns an error string.
 	 *
 	 * @see     JTable::bind()
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function bind($array, $ignore = '')
 	{
@@ -157,7 +157,7 @@ class AttachedTableFile extends JTable
 	 * @return  boolean  True on success, false on failure.
 	 *
 	 * @see     JTable::check()
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function check()
 	{
@@ -216,7 +216,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @return  boolean  True on success, false on failure.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function store($updateNulls = false)
 	{
@@ -260,7 +260,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function publish($pks = null, $state = 1, $userId = 0)
 	{
@@ -384,7 +384,7 @@ class AttachedTableFile extends JTable
 	 *
 	 * @return  boolean  True on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function download($pk = null)
 	{

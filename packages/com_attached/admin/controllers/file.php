@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class AttachedControllerFile extends JControllerForm
 {
@@ -25,7 +25,7 @@ class AttachedControllerFile extends JControllerForm
 	 * The prefix to use with controller messages.
 	 *
 	 * @var     string
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected $text_prefix = 'COM_ATTACHED_FILE';
 
@@ -36,7 +36,7 @@ class AttachedControllerFile extends JControllerForm
 	 *
 	 * @return  boolean
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function allowAdd($data = array())
 	{
@@ -54,7 +54,7 @@ class AttachedControllerFile extends JControllerForm
 	 *
 	 * @return  boolean
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function allowEdit($data = array(), $key = 'id')
 	{
@@ -107,7 +107,7 @@ class AttachedControllerFile extends JControllerForm
 	 *
 	 * @return  boolean  True if successful, false otherwise and internal error is set.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function batch($model = null)
 	{
@@ -128,7 +128,7 @@ class AttachedControllerFile extends JControllerForm
 	 *
 	 * @return  string  The arguments to append to the redirect URL.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function getRedirectToListAppend()
 	{
@@ -146,7 +146,7 @@ class AttachedControllerFile extends JControllerForm
 	 *
 	 * @return  string  The arguments to append to the redirect URL.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function getRedirectToItemAppend($recordId = null, $urlVar = 'id')
 	{
@@ -182,7 +182,7 @@ class AttachedControllerFile extends JControllerForm
 	 *
 	 * @return  boolean  True if successful, false otherwise.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function save($key = null, $urlVar = null)
 	{

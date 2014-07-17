@@ -4,8 +4,8 @@
  * @subpackage  Attached.Content
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  Attached.content
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class PlgAttachedContent extends JPlugin
 {
@@ -28,7 +28,7 @@ class PlgAttachedContent extends JPlugin
 	 * @param   array   $config    An array that holds the plugin configuration.
 	 *
 	 * @access  protected
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function __construct(& $subject, $config)
 	{
@@ -44,7 +44,7 @@ class PlgAttachedContent extends JPlugin
 	 *
 	 * @return  array
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function onGetConfig($config)
 	{

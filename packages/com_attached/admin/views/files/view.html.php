@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class AttachedViewFiles extends JViewLegacy
 {
@@ -70,7 +70,7 @@ class AttachedViewFiles extends JViewLegacy
 	 *
 	 * @return  mixed  Exception on failure, void on success.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function display($tpl = null)
 	{
@@ -105,7 +105,7 @@ class AttachedViewFiles extends JViewLegacy
 	 *
 	 * @return  void
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function addToolbar()
 	{

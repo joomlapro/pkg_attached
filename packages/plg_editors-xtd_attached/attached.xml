@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
-	version="3.2"
+	version="3.3"
 	type="plugin"
 	group="editors-xtd"
 	method="upgrade">
 	<name>plg_editors-xtd_attached</name>
 	<author>Bruno Batista</author>
 	<creationDate>Nov 2013</creationDate>
-	<copyright>Copyright (C) 2013 AtomTech, Inc. All rights reserved.</copyright>
-	<license>Commercial License</license>
+	<copyright>Copyright (C) 2014 AtomTech, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>bruno@atomtech.com.br</authorEmail>
 	<authorUrl>http://www.atomtech.com.br</authorUrl>
 	<version>1.0</version>

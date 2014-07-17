@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class AttachedModelFiles extends JModelList
 {
@@ -27,7 +27,7 @@ class AttachedModelFiles extends JModelList
 	 * @param   array  $config  An optional associative array of configuration settings.
 	 *
 	 * @see     JModelList
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function __construct($config = array())
 	{
@@ -73,7 +73,7 @@ class AttachedModelFiles extends JModelList
 	 *
 	 * @return  void
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function populateState($ordering = null, $direction = null)
 	{
@@ -135,7 +135,7 @@ class AttachedModelFiles extends JModelList
 	 *
 	 * @return  string  A store id.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function getStoreId($id = '')
 	{
@@ -154,7 +154,7 @@ class AttachedModelFiles extends JModelList
 	 *
 	 * @return  JDatabaseQuery
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	protected function getListQuery()
 	{
@@ -314,7 +314,7 @@ class AttachedModelFiles extends JModelList
 	 *
 	 * @return  JDatabaseQuery
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function getAuthors()
 	{
@@ -342,7 +342,7 @@ class AttachedModelFiles extends JModelList
 	 *
 	 * @return  mixed  An array of data items on success, false on failure.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public function getItems()
 	{

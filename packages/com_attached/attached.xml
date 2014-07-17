@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension
-	version="3.2"
+	version="3.3"
 	type="component"
 	method="upgrade">
 	<name>com_attached</name>
 	<author>Bruno Batista</author>
 	<creationDate>Nov 2013</creationDate>
-	<copyright>Copyright (C) 2013 AtomTech, Inc. All rights reserved.</copyright>
-	<license>Commercial License</license>
+	<copyright>Copyright (C) 2014 AtomTech, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>bruno@atomtech.com.br</authorEmail>
 	<authorUrl>http://www.atomtech.com.br</authorUrl>
 	<version>1.0</version>
 	<description>COM_ATTACHED_XML_DESCRIPTION</description>
-	<scriptfile>script.php</scriptfile>
+	<scriptfile />
 	<!-- Runs on install. -->
 	<install>
 		<sql>
@@ -42,18 +42,16 @@
 		</schemas>
 	</update>
 	<files folder="site">
-		<filename>attached.php</filename>
 		<filename>controller.php</filename>
 		<filename>index.html</filename>
+		<filename>metadata.xml</filename>
+		<filename>router.php</filename>
+		<filename>attached.php</filename>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
 	</files>
-	<media
-		destination="com_attached"
-		folder="media">
-		<folder>css</folder>
-		<folder>js</folder>
-		<folder>less</folder>
-		<filename>index.html</filename>
-	</media>
 	<administration>
 		<menu img="class:attached">com_attached</menu>
 		<submenu>

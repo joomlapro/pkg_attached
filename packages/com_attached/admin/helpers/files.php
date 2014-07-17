@@ -4,8 +4,8 @@
  * @subpackage  com_attached
  *
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @copyright   Copyright (C) 2013 AtomTech, Inc. All rights reserved.
- * @license     Commercial License
+ * @copyright   Copyright (C) 2014 AtomTech, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
 // No direct access.
@@ -17,7 +17,7 @@ defined('_JEXEC') or die;
  * @package     Attached
  * @subpackage  com_attached
  * @author      Bruno Batista <bruno@atomtech.com.br>
- * @since       3.2
+ * @since       3.3
  */
 class FilesHelper
 {
@@ -29,7 +29,7 @@ class FilesHelper
 	 *
 	 * @return  JObject  A JObject containing the allowed actions.
 	 *
-	 * @since   3.2
+	 * @since   3.3
 	 */
 	public static function getActions($id = 0, $assetName = '')
 	{
@@ -63,7 +63,7 @@ class FilesHelper
 	 *
 	 * @return  array  An array of JHtmlOption elements.
 	 *
-	 * @return  3.2
+	 * @return  3.3
 	 */
 	public static function getContextOptions()
 	{
